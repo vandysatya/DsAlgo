@@ -26,11 +26,8 @@ import java.util.*;
 
 class TestClass {
     public static void main(String args[] ) throws Exception {
-       
         Scanner s = new Scanner(System.in);
         int testCase = Integer.valueOf(s.nextLine()); 
-        
-
         for(int i=0; i<testCase; i++){
             int len = Integer.valueOf(s.nextLine());
             System.out.println(maxString(len, s.nextLine()));
